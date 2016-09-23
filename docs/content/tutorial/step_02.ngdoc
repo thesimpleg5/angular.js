@@ -268,6 +268,10 @@ To run the tests, and then watch the files for changes execute: `npm test`
   minimized browser is limited, which results in your karma tests running extremely slow.
 </div>
 
+<div class="alert alert-info">
+  If your test fails with "Uncaught ReferenceError: <module> is not defined" check the basepath and the reference to each file under "files:".  This error is related to certain files not being included properly.
+</div>
+
 
 # Experiments
 
